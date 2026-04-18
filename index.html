@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StepStyle - Shoes & Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<
+</head>
+<!-- start body -->
+<body>
+    <header>
+        <nav>
+            <div class="logo">StepStyle</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="size-guide.html">Size Guide</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Slider -->
+        <section class="hero">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="images/image1.jpg"
+                     alt="Step Into Style">
+
+                    <div class="slide-content">
+                        <h1>Step Into Style</h1>
+                        <p>New Collection 2026</p>
+                        <a href="shop.html" class="btn-primary">Shop Now</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://loremflickr.com/1400/600/adidas,shoes" alt="Premium Fashion">
+                    <div class="slide-content">
+                        <h1>Premium Fashion</h1>
+                        <p>Discover Your Perfect Pair</p>
+                        <a href="shop.html" class="btn-primary">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card" data-id="1" data-name="Nike Air Max" data-price="8000" >
+
+                    <img src="images/image2.avif" alt="Nike Air Max">
+                    <h3>Nike Air Max</h3>
+                    <p class="price">Rs 8,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-id="2" data-name="Adidas Run" data-price="7000" >
+
+                    <img src="images/adidas-run.avif" alt="Adidas Run">            
+                            <h3>Adidas Run</h3>
+                    <p class="price">Rs 7,000</p>
+
+                    <button class="add-to-cart">Add to Cart</button>
+
+                </div>
+                <div class="product-card" data-id="3" data-name="Puma Sneakers" data-price="6000">
+
+                    <img src="images/puma.avif" alt="Puma Sneakers">
+                    <h3>Puma Sneakers</h3>
+                    <p class="price">Rs 6,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-id="4" data-name="Fashion Jacket" data-price="5000" >
+
+                    <img src="images/jacket.avif" alt="Fashion Jacket">
+
+                    <h3>Fashion Jacket</h3>
+                    <p class="price">Rs 5,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Offers -->
+        <section class="offers">
+            <h2>Special Offers</h2>
+            <div class="offer-card">
+                <h3>Flat 20% OFF</h3>
+                <p>On all sneakers and fashion items</p>
+                <a href="offers.html" class="btn-secondary">View Offers</a>
+            </div>
+        </section>
+
+       
+    </main>
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">StepStyle</div>
+
+            <div class="footer-info">
+                <p>Kathmandu, Nepal</p>
+                <p><a href="mailto:hello@stepstyle.com">hello@stepstyle.com</a></p>
+
+            </div>
+
+           
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

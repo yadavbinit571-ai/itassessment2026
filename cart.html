@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - StepStyle</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">StepStyle</div>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="shop.html">Shop</a></li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+
+                <li><a href="about.html">About Us</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+                <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+
+                <li><a href="offers.html">Offers</a></li>
+
+                <li><a href="size-guide.html">Size Guide</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart">
+            <h1>Your Cart</h1>
+            <div id="cart-items" class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div id="cart-total" class="cart-total">
+                <p>Total: Rs <span id="total-price">0</span></p>
+            </div>
+
+            <div class="cart-actions">
+                <a href="shop.html" class="btn-secondary">Continue Shopping</a>
+                <button id="checkout-btn" class="btn-primary">Checkout</button>
+            </div>
+            <div id="empty-cart" class="empty-cart">
+                <p>Your cart is empty. <a href="shop.html">Start shopping</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">StepStyle</div>
+            <div class="footer-info">
+                <p>Kathmandu, Nepal</p>
+                <p><a href="mailto:hello@stepstyle.com">hello@stepstyle.com</a></p>
+            </div>
+           
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
